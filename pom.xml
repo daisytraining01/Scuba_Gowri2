@@ -232,9 +232,11 @@
         <goal>add-source</goal>
       </goals>
       <configuration>
-        <sources>
-          <source>src/java/core</source>
-          <source>src/java/gen</source>
+        <sources>     
+          <source>src/main/java</source>
+          <source>src/main/resources</source>
+          <source>src/test/java</source>
+          <source>src/test/resources</source>
         </sources>
       </configuration>
     </execution>
