@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T14:35:56.851Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Registration Flow",
+        "description": "",
+        "id": "register-a-new-customer;registration-flow;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6367000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the Parabank registration page using testdata \"TC_1\" in \"DB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TC_1\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"DB\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters all the required fields",
+            "match": {
+              "location": "com.internetapp.ParabankstepDefs.ParabankStepDefs.user_enters_all_the_required_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 548000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer is logged in with New Account created",
+            "match": {
+              "location": "com.internetapp.ParabankstepDefs.ParabankStepDefs.customer_is_logged_in_with_New_Account_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parabank"
+          },
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "Register a new Customer",
+    "description": "",
+    "id": "register-a-new-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Register.feature",
+    "tags": [
+      {
+        "name": "@parabank",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

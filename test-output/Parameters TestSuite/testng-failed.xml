@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TestSuite]">
+  <parameter name="number3" value="10"/>
+  <parameter name="number4" value="89"/>
+  <parameter name="number1" value="5"/>
+  <parameter name="number2" value="2"/>
+  <test name="Test 2(failed)">
+    <parameter name="number3" value="10"/>
+    <parameter name="number4" value="89"/>
+    <classes>
+      <class name="com.scubatraining.Gowri.Calculator.TestNG_ParallelClass1">
+        <methods>
+          <include name="testMethod1"/>
+        </methods>
+      </class> <!-- com.scubatraining.Gowri.Calculator.TestNG_ParallelClass1 -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Parameters TestSuite] -->

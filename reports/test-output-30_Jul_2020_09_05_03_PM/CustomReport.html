@@ -1,0 +1,176 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">.row{margin-right:0px; margin-left:0px;} .skills{text-align:center;padding-right:20px;line-height:40px;color:white;margin-bottom:2px}.passed{background-color:green}.failed{background-color:#f44336}.skipped{background-color:#808080}.testName{background-color:#406084}.total{background-color:#a7856b}.executionTime{background-color:#e59866}.padding-logs{padding:1cm}body{padding:0;font:14px "Calibri",Lucida Grande;line-height:1.5}.checkbox{padding-left:0;margin-top:-5px}.checkbox label{display:inline-block;position:relative;padding-left:5px}.checkbox label::before{content:"";display:inline-block;position:absolute;width:17px;height:17px;left:0;margin-left:-20px;border:1px solid #7f7fff;border-radius:3px;background-color:#fff;-webkit-transition:border .15s ease-in-out,color .15s ease-in-out;-o-transition:border .15s ease-in-out,color .15s ease-in-out;transition:border .15s ease-in-out,color .15s ease-in-out}.checkbox label::after{display:inline-block;position:absolute;width:16px;height:16px;left:0;top:0;margin-left:-10px;padding-left:3px;padding-top:1px;font-size:11px;color:#555}.checkbox input[type="checkbox"]{opacity:0}.checkbox input[type="checkbox"]:focus+label::before{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.checkbox input[type="checkbox"]:checked+label::after{font-family:"FontAwesome";content:"\f00c";margin-left:-20px}.checkbox input[type="checkbox"]:disabled+label{opacity:.65}.checkbox input[type="checkbox"]:disabled+label::before{background-color:#eee;cursor:not-allowed}.checkbox.checkbox-circle+label::before{border-radius:50%}.checkbox.checkbox-inline{margin-top:0}.checkbox-primary input[type="checkbox"]:checked+label::before{background-color:#428bca;border-color:#428bca}.checkbox-primary input[type="checkbox"]:checked+label::after{color:#fff}.checkbox-danger input[type="checkbox"]:checked+label::before{background-color:#d9534f;border-color:#d9534f}.checkbox-danger input[type="checkbox"]:checked+label::after{color:#fff}.checkbox-info input[type="checkbox"]:checked+label::before{background-color:#5bc0de;border-color:#5bc0de}.checkbox-info input[type="checkbox"]:checked+label::after{color:#fff}.checkbox-warning input[type="checkbox"]:checked+label::before{background-color:#f0ad4e;border-color:#f0ad4e}.checkbox-warning input[type="checkbox"]:checked+label::after{color:#fff}.checkbox-success input[type="checkbox"]:checked+label::before{background-color:#5cb85c;border-color:#5cb85c}.checkbox-success input[type="checkbox"]:checked+label::after{color:#fff}.box{color:black;padding:4px;margin-top:4px;border-bottom:1px double;border-top:1px double;border-left: 1px double;border-right: 1px double;border-color:gray}a{font-color:blue}.red{background:#ffb699}.green{background:#90ee90}.yellow{background:#ff6}.blue{background:#f0e68c}#mainTable{border-collapse:collapse}*{font-family:Tahoma,Calibri Light!important}</style> 
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+ </head>
+ <body background="screenshots/Background.png">
+  <script language="javascript"> function toggle(id,id2) {      var ele = document.getElementById(id);      var text = document.getElementById(id2);      if(ele.style.display == "block") {            ele.style.display = "none";            text.innerHTML = "[+]";      }      else {            ele.style.display = "block";            text.innerHTML = "[-]";      }}</script>
+  <script type="text/javascript">$('#fails').show();$('#pass').show();$('#skip').show();$(document).ready(function(){$("input:checkbox").change(function() {$.each($('input[type="checkbox"]'), function (key, value) {var inputValue = $(this).attr("value");var ischecked= $(this).is(':checked');if(ischecked){$("." + inputValue).show();}else{$("." + inputValue).hide();}});});});</script>
+  <meta charset="utf-8">
+  <title>Automation Report</title>
+  <style type="text/css">body{margin:5px;} .box{color: black; padding: 4px; margin-top: 4px;  border-bottom: 1px double;  border-top: 1px double; border-color:gray;}.red{ background: #ffb699; }.green{ background: #90EE90; }.yellow{ background: #FFFF66; }.blue{ background: #F0E68C; }#mainTable {border-collapse: collapse;}* {font-family: Tahoma, Calibri Light !important;}</style>
+  <div class="\&quot;row\&quot;">
+   <table border="0" style="width:100%">
+    <tbody>
+     <tr>
+      <td>
+       <table>
+        <tbody>
+         <tr>
+          <td align="left" width="10%"><img style="margin:5px;" src="screenshots/MavericLogo.png" border="2">&nbsp;</td>
+         </tr>
+        </tbody>
+       </table></td>
+      <td align="center"><b>
+        <left>
+         <font style="font-size: 25px;"> Test Application Automation Results </font>
+        </left></b></td>
+      <td>
+       <div name="jenkin_compiler_name" align="right">
+        <table style="background-color:rgba(0, 0, 0, 0);">
+         <tbody>
+          <tr>
+           <td><b>
+             <div id="runCompletedOn" class="label label-danger">
+              Thu Jul 30 21:05:24 IST 2020
+             </div><b></b></b></td>
+          </tr>
+         </tbody>
+        </table>
+       </div></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <div class="row">
+   <div class="col-xs-3 skills testName ">
+    Environment : <span id="environment">TestNG Suite</span>
+   </div>
+   <div class="col-xs-3 skills total ">
+    Total Test Cases : <span id="totalTestCases">1</span>
+   </div>
+   <div class="col-xs-3 skills passed">
+    Execution Time :<span id="executionTime">00:00:20</span>
+   </div>
+   <div class="col-xs-3 skills executionTime">
+    Browser : <span id="browser">chrome</span>
+   </div>
+   <div class="col-xs-3 skills passed">
+    Passed Test Cases : <span id="passedCount">0</span>
+   </div>
+   <div class="col-xs-3 skills failed">
+    Failed Test Cases :<span id="failedCount">1</span>
+   </div>
+   <div class="col-xs-3 skills testName">
+    Retry Count : 0<span id="retryCount"></span>
+   </div>
+   <div class="col-xs-3 skills total">
+    Groups : <span id="keywords">@parabank</span>
+   </div>
+  </div>
+  <br>
+  <div class="row">
+   <h4 class="col-xs-12 col-sm-6 pull-left"><b><font color="#24468D">Report Details</font></b></h4>
+   <div class="col-xs-12 col-sm-6">
+    <div style="margin-left: 50%;">
+     <div class="col-xs-4 col-sm-offset-3 col-sm-3 checkbox checkbox-success">
+      <input type="checkbox" id="pass" value="green" name="checkbox" checked><label for="pass">Passed</label>
+     </div>
+     <div class="col-xs-4 col-sm-3 checkbox checkbox-danger">
+      <input type="checkbox" id="fails" value="red" name="checkbox" checked><label for="fails">Failed</label>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="pass" class="blue box padding-logs">
+   Feature : Register a new Customer&nbsp;<a style="font-size:13px;vertical-align:2px;" id="Register a new Customer_passed_0" href="javascript:toggle('Register a new Customer_passed','Register a new Customer_passed_0');"> [+]</a><a style="position: absolute;right: 9;color:black;"> Total Scenarios : 2, Passed Scenarios : 0, Failed Scenarios : 2</a>
+   <div id="Register a new Customer_passed" style="display: none; background-color: #F0E68C; margin-left: 0.5cm; ">
+    <div class="messages">
+     <div id="fail" class="red box padding-logs">
+      Scenario : Login&nbsp;<a style="font-size:13px;vertical-align:2px;" id="Login_failed_12105245936" href="javascript:toggle('Login_failed_2105245936','Login_failed_12105245936');"> [+]</a>
+      <div id="Login_failed_2105245936" style="display: none; background-color: rgb(255, 218, 204); margin-left: 0.5cm;">
+       <div class="messages">
+        <div id="fail" class="red box padding-logs">
+         Given Login to parabank with username as "Dummy11" and password as "Test@123"<a style="font-size:13px;vertical-align:2px;" id="step11_failed_02105245921" href="javascript:toggle('step11_failed2105245921','step11_failed_02105245921');"> [+]</a>
+         <div id="step11_failed2105245921" style="display: none; background-color: rgb(255, 218, 204);; margin-left: 0.5cm; ">
+          <div class="messages">
+           org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Accounts Overview']"} (Session info: chrome=84.0.4147.105) For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03' System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:63191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: b69474fcdea585c0d1b6c2531d5680b2 *** Element info: {Using=xpath, value=//h1[text()='Accounts Overview']} at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.lang.reflect.Constructor.newInstance(Constructor.java:423) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) at org.openqa.selenium.By$ByXPath.findElement(By.java:353) at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) at com.scubatraining.Gowri.seleniummethods.ParaBankCode.Loginaccount(ParaBankCode.java:81) at com.internetapp.stepDefs.ParabankStepDefs.login_to_parabank_with_username_as_and_password_as(ParabankStepDefs.java:30) at ✽.Login to parabank with username as "Dummy11" and password as "Test@123"(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:16) 30-Jul-2020 09:05:17 PM : <a target="_blank" href="screenshots/screenshot_1.png">Failure Screenshot </a>
+          </div>
+          <br>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         When Create a "CHECKING" account and Verify account is created successfully<a style="font-size:13px;vertical-align:2px;" id="step12_skipped_02105245922" href="javascript:toggle('step12_skipped2105245922','step12_skipped_02105245922');"> [+]</a>
+         <div id="step12_skipped2105245922" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         Then Verify account Details<a style="font-size:13px;vertical-align:2px;" id="step13_skipped_02105245923" href="javascript:toggle('step13_skipped2105245923','step13_skipped_02105245923');"> [+]</a>
+         <div id="step13_skipped2105245923" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         And Transfer amount "10"<a style="font-size:13px;vertical-align:2px;" id="step14_skipped_02105245934" href="javascript:toggle('step14_skipped2105245934','step14_skipped_02105245934');"> [+]</a>
+         <div id="step14_skipped2105245934" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         And Verify Transaction details and sort it and Record the transaction in "/Users/gowriv/Desktop/Automation/Test.txt"<a style="font-size:13px;vertical-align:2px;" id="step15_skipped_02105245935" href="javascript:toggle('step15_skipped2105245935','step15_skipped_02105245935');"> [+]</a>
+         <div id="step15_skipped2105245935" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="fail" class="red box padding-logs">
+      Scenario : Login&nbsp;<a style="font-size:13px;vertical-align:2px;" id="Login_failed_121052459312" href="javascript:toggle('Login_failed_21052459312','Login_failed_121052459312');"> [+]</a>
+      <div id="Login_failed_21052459312" style="display: none; background-color: rgb(255, 218, 204); margin-left: 0.5cm;">
+       <div class="messages">
+        <div id="fail" class="red box padding-logs">
+         Given Login to parabank with username as "Dummy12" and password as "Test@123"<a style="font-size:13px;vertical-align:2px;" id="step21_failed_02105245937" href="javascript:toggle('step21_failed2105245937','step21_failed_02105245937');"> [+]</a>
+         <div id="step21_failed2105245937" style="display: none; background-color: rgb(255, 218, 204);; margin-left: 0.5cm; ">
+          <div class="messages">
+           org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Accounts Overview']"} (Session info: chrome=84.0.4147.105) For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03' System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241' Driver info: org.openqa.selenium.chrome.ChromeDriver Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:63271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} Session ID: d9c9ac9249fbbd0efb7b76389bc9222d *** Element info: {Using=xpath, value=//h1[text()='Accounts Overview']} at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.lang.reflect.Constructor.newInstance(Constructor.java:423) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428) at org.openqa.selenium.By$ByXPath.findElement(By.java:353) at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) at com.scubatraining.Gowri.seleniummethods.ParaBankCode.Loginaccount(ParaBankCode.java:81) at com.internetapp.stepDefs.ParabankStepDefs.login_to_parabank_with_username_as_and_password_as(ParabankStepDefs.java:30) at ✽.Login to parabank with username as "Dummy12" and password as "Test@123"(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:16) 30-Jul-2020 09:05:24 PM : <a target="_blank" href="screenshots/screenshot_2.png">Failure Screenshot </a>
+          </div>
+          <br>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         When Create a "CHECKING" account and Verify account is created successfully<a style="font-size:13px;vertical-align:2px;" id="step22_skipped_02105245938" href="javascript:toggle('step22_skipped2105245938','step22_skipped_02105245938');"> [+]</a>
+         <div id="step22_skipped2105245938" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         Then Verify account Details<a style="font-size:13px;vertical-align:2px;" id="step23_skipped_02105245939" href="javascript:toggle('step23_skipped2105245939','step23_skipped_02105245939');"> [+]</a>
+         <div id="step23_skipped2105245939" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         And Transfer amount "10"<a style="font-size:13px;vertical-align:2px;" id="step24_skipped_021052459310" href="javascript:toggle('step24_skipped21052459310','step24_skipped_021052459310');"> [+]</a>
+         <div id="step24_skipped21052459310" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+        <div id="skip" class="orangered box padding-logs">
+         And Verify Transaction details and sort it and Record the transaction in "/Users/gowriv/Desktop/Automation/Test.txt"<a style="font-size:13px;vertical-align:2px;" id="step25_skipped_021052459311" href="javascript:toggle('step25_skipped21052459311','step25_skipped_021052459311');"> [+]</a>
+         <div id="step25_skipped21052459311" style="display: none; background-color: #FF4500; margin-left: 0.5cm; ">
+          <div class="messages"></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

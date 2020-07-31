@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parabank TestSuite" parallel="false">
+<test name="Parabank Execution of Application">
+	<classes>
+		<class name="com.CucumberRunner"></class>
+	</classes>
+</test>
+</suite> 

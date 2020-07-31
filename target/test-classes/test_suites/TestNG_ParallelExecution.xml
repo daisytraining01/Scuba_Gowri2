@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters TestSuite" parallel="classes" thread-count="2">
+<test name="Parallel Execution of Application">
+	<classes>
+		<class name="com.scubatraining.Gowri.seleniummethods.Application1"></class>
+		<class name="com.scubatraining.Gowri.seleniummethods.Application2"></class>
+	</classes>
+</test>
+</suite> 

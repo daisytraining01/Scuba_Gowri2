@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-31T07:36:45Z" name="Parabank TestSuite" finished-at="2020-07-31T07:36:59Z" duration-ms="13749">
+    <groups>
+    </groups>
+    <test started-at="2020-07-31T07:36:45Z" name="Parabank Execution of Application" finished-at="2020-07-31T07:36:59Z" duration-ms="13749">
+      <class name="com.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.CucumberRunner@14fc1f0]" started-at="2020-07-31T13:06:45Z" name="setUpClass" finished-at="2020-07-31T13:06:46Z" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@14fc1f0]" started-at="2020-07-31T13:06:46Z" name="setTestName" finished-at="2020-07-31T13:06:46Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1e58512c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestName -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@14fc1f0]" started-at="2020-07-31T13:06:46Z" name="scenario" data-provider="scenarios" finished-at="2020-07-31T13:06:59Z" duration-ms="13135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register a new Customer]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@14fc1f0]" started-at="2020-07-31T13:06:59Z" name="afterMethod" finished-at="2020-07-31T13:06:59Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registration Flow status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@14fc1f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@14fc1f0]" started-at="2020-07-31T13:06:59Z" name="tearDownClass" finished-at="2020-07-31T13:06:59Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.CucumberRunner -->
+    </test> <!-- Parabank Execution of Application -->
+  </suite> <!-- Parabank TestSuite -->
+</testng-results>
