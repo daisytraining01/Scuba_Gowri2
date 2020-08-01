@@ -21,7 +21,6 @@ And Verify Transaction details and sort it and Record the transaction in "/Users
 Examples:
 |Username|Password|
 |Dummy11|Test@123|
-|Dummy12|Test@123|
 
 #@DBtransaction
 #Scenario: Insert Update Delete Query for prepared Statement

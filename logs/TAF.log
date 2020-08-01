@@ -721,3 +721,13 @@ Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
 2020-08-01 08:34:28.482 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.testng.listeners.ReportListener - Registered successfully
 2020-08-01 08:34:28.713 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-08-01 08:34:28.716 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Registration Flow
+2020-08-01 13:24:34.567 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-01_Aug_2020_01_24_34_PM
+2020-08-01 13:24:34.608 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-01 13:24:34.608 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-01 13:24:34.608 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-01 13:24:35.634 [pool-2-thread-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Registration Flow
+2020-08-01 13:24:40.410 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-01 13:24:46.784 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.ReportListener - Driver launched successfully
+2020-08-01 13:24:51.838 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.ReportListener - Registered successfully
+2020-08-01 13:24:52.616 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-01 13:24:52.618 [pool-2-thread-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Registration Flow

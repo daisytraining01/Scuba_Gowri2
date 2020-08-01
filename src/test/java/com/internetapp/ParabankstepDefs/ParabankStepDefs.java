@@ -30,26 +30,31 @@ public class ParabankStepDefs  {
 	public void user_is_on_the_Parabank_registration_page_using_testdata_in(String TC, String InputDataType)
 			throws Throwable {
 		PBC.Register(TC, InputDataType);
+		PBC.logScreenshot("Register Page");
 	}
 
 	@When("user enters all the required fields")
 	public void user_enters_all_the_required_fields() throws Exception {
 		PBC.EnterRegisterDetails();
+		PBC.logScreenshot("Details Entered");
 	}
 
 	@Then("Customer is logged in with New Account created")
 	public void customer_is_logged_in_with_New_Account_created() throws Exception {
 		PBC.submitRegister();
+		PBC.logScreenshot("Registered success");
 	}
 
 	@Given("Login to parabank with username as {string} and password as {string}")
 	public void login_to_parabank_with_username_as_and_password_as(String Username, String Password) throws Throwable {
 		PBC.Loginaccount(Username, Password);
+		PBC.logScreenshot("Login success");
 	}
 
 	@When("Create a {string} account and Verify account is created successfully")
 	public void create_a_account_and_Verify_account_is_created_successfully(String Type) throws Exception {
 		PBC.OpenAccount(Type);
+		PBC.logScreenshot("Account open success");
 	}
 
 	@Then("Verify account Details")
@@ -60,11 +65,13 @@ public class ParabankStepDefs  {
 	@Then("Transfer amount {string}")
 	public void transfer_amount(String Amount) throws Exception {
 		PBC.Transferfund(Amount);
+		PBC.logScreenshot("Transfer amount success");
 	}
 
 	@Then("Verify Transaction details and sort it and Record the transaction in {string}")
 	public void verify_Transaction_details_and_sort_it_and_Record_the_transaction_in(String Filename) throws Throwable {
 		PBC.SearchTrxn(Filename);
+		PBC.logScreenshot(" Transaction Details Search");
 	}
 
 	@Given("Insert a data to Registration Table {string}")

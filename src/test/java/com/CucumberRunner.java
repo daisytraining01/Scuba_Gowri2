@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"./src/test/resources/features/"},
         glue ={ "com.internetapp.ParabankstepDefs"},
-        tags= "@parabank"
+        tags= "@register"
 )
 public class CucumberRunner extends CucumberBaseTest {
 
