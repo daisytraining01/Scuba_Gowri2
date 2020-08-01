@@ -219,14 +219,13 @@
   </dependency>
     </dependencies>
     <build>
+     <pluginManagement>
         <plugins>
                  <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>build-helper-maven-plugin</artifactId>
   <version>1.1</version>
-  <executions>
-    <execution>
-      <id>add-source</id>
+  <executions><execution><id>add-source</id>
       <phase>generate-sources</phase>
       <goals>
         <goal>add-source</goal>
@@ -238,9 +237,7 @@
           <source>src/test/java</source>
           <source>src/test/resources</source>
         </sources>
-      </configuration>
-    </execution>
-  </executions>
+      </configuration></execution></executions>
 </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -262,5 +259,6 @@
                 </configuration>
             </plugin>
         </plugins>
+         </pluginManagement>
     </build>
 </project>
