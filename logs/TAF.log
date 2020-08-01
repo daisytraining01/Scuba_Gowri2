@@ -694,3 +694,20 @@
 2020-07-31 20:06:04.804 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.ReportListener - Registered successfully
 2020-07-31 20:06:04.950 [pool-2-thread-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
 2020-07-31 20:06:04.977 [pool-2-thread-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - PASS  Registration Flow
+2020-08-01 00:20:24.550 [main] INFO  com.maveric.core.testng.listeners.TestListener - Thread Count : 1
+2020-08-01 00:20:24.555 [main] INFO  com.maveric.core.testng.listeners.TestListener - Data Provider Count : 1
+2020-08-01 00:20:24.556 [main] INFO  com.maveric.core.testng.listeners.TestListener - Parallel Type : Methods
+2020-08-01 00:20:25.059 [main] INFO  com.maveric.core.testng.listeners.ReportListener - reports folder created successfully :./reports/test-output-01_Aug_2020_12_20_25_AM
+2020-08-01 00:20:26.006 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.cucumber.CucumberBaseTest - START Registration Flow
+2020-08-01 00:20:29.054 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Setup Completed
+2020-08-01 00:20:40.931 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.testng.listeners.ReportListener - Driver launched successfully
+2020-08-01 00:20:41.545 [TestNG-test=Parabank Execution of Application-1] ERROR com.maveric.core.utils.web.WebActions - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
+2020-08-01 00:20:41.584 [TestNG-test=Parabank Execution of Application-1] INFO  com.maveric.core.testng.listeners.DriverListener - Driver Quit Completed
+2020-08-01 00:20:41.592 [TestNG-test=Parabank Execution of Application-1] ERROR com.maveric.core.cucumber.CucumberBaseTest - FAIL  Registration Flow

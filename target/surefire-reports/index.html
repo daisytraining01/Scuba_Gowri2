@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Parabank_TestSuite" class="navigator-link">
-              <span class="suite-name border-passed">Parabank TestSuite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Parabank_TestSuite">
+              <span class="suite-name border-failed">Parabank TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parabank_TestSuite">
                     <span>Parabank.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Parabank_TestSuite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Parabank_TestSuite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Parabank_TestSuite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Parabank_TestSuite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parabank_TestSuite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Parabank_TestSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Parabank_TestSuite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Parabank_TestSuite" class="hide-methods passed suite-Parabank_TestSuite"> (hide)</a> <!-- hide-methods passed suite-Parabank_TestSuite -->
-                      <a href="#" panel-name="suite-Parabank_TestSuite" class="show-methods passed suite-Parabank_TestSuite"> (show)</a> <!-- show-methods passed suite-Parabank_TestSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parabank_TestSuite" class="hide-methods failed suite-Parabank_TestSuite"> (hide)</a> <!-- hide-methods failed suite-Parabank_TestSuite -->
+                      <a href="#" panel-name="suite-Parabank_TestSuite" class="show-methods failed suite-Parabank_TestSuite"> (show)</a> <!-- show-methods failed suite-Parabank_TestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Parabank_TestSuite">
+                    <div class="method-list-content failed suite-Parabank_TestSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parabank_TestSuite" title="com.CucumberRunner" class="method navigator-link" hash-for-method="scenario(&quot;Registration Flow&quot;, &quot;Optional[Register a new Customer]&quot;)">scenario("Registration Flow", "Optional[Register a new Customer]")</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parabank_TestSuite" title="com.CucumberRunner" hash-for-method="scenario(&quot;Registration Flow&quot;, &quot;Optional[Register a new Customer]&quot;)">scenario("Registration Flow", "Optional[Register a new Customer]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Parabank_TestSuite -->
+                    </div> <!-- method-list-content failed suite-Parabank_TestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Parabank_TestSuite" class="panel Parabank_TestSuite">
-          <div class="suite-Parabank_TestSuite-class-passed">
+          <div class="suite-Parabank_TestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.CucumberRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,10 +129,34 @@
                   </a> <!-- scenario("Registration Flow", "Optional[Register a new Customer]") -->
                   <span class="method-name">scenario</span>
                   <span class="parameters">("Registration Flow", "Optional[Register a new Customer]")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Administrators-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:18b4:d186:fc95:d6ab%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
+*** Element info: {Using=xpath, value=//a[text()=&apos;Register&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.scubatraining.Gowri.seleniummethods.ParaBankCode.Register(ParaBankCode.java:49)
+	at com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(ParabankStepDefs.java:33)
+	at ✽.user is on the Parabank registration page using testdata &quot;TC_1&quot; in &quot;DB&quot;(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:6)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parabank_TestSuite-class-passed -->
+          </div> <!-- suite-Parabank_TestSuite-class-failed -->
         </div> <!-- panel Parabank_TestSuite -->
         <div panel-name="test-xml-Parabank_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -142,7 +166,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; parallel=&quot;methods&quot; name=&quot;Parabank TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Parabank TestSuite&quot; parallel=&quot;methods&quot;&gt;
   &lt;test name=&quot;Parabank Execution of Application&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.CucumberRunner&quot;/&gt;
@@ -189,12 +213,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'scenario')
 data.setCell(0, 2, 'com.CucumberRunner')
-data.setCell(0, 3, 13135);
+data.setCell(0, 3, 15545);
 window.suiteTableData['Parabank_TestSuite']= { tableData: data, tableDiv: 'times-div-Parabank_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Parabank_TestSuite">
               </div> <!-- times-div-Parabank_TestSuite -->
             </div> <!-- times-div -->
@@ -227,19 +251,21 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setTestName(public void com.maveric.core.cucumber.CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper,io....)</span>
-                <span class="method-start">342 ms</span>
+                <span class="method-start">372 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">scenario("Registration Flow", "Optional[Register a new Customer]")</span>
-                <span class="method-start">345 ms</span>
+                <span class="method-start">375 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=Registration Flow status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testn...)</span>
-                <span class="method-start">13639 ms</span>
+                <span class="method-name">afterMethod([TestResult name=Registration Flow status=FAILURE method=CucumberBaseTest.scenario(io.cucumber.testn...)</span>
+                <span class="method-start">15961 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">13641 ms</span>
+                <span class="method-start">15962 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

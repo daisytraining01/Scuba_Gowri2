@@ -1,0 +1,296 @@
+# Created at 2020-08-01T00:20:33.831
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-08-01T00:20:40.852
+Unexpected IOException with stream: [
+
+# Created at 2020-08-01T00:20:40.852
+Unexpected IOException with stream: 1
+
+# Created at 2020-08-01T00:20:40.853
+Unexpected IOException with stream: 5
+
+# Created at 2020-08-01T00:20:40.853
+Unexpected IOException with stream: 9
+
+# Created at 2020-08-01T00:20:40.855
+Unexpected IOException with stream: 6
+
+# Created at 2020-08-01T00:20:40.862
+Unexpected IOException with stream: 2
+
+# Created at 2020-08-01T00:20:40.863
+Unexpected IOException with stream: 2
+
+# Created at 2020-08-01T00:20:40.863
+Unexpected IOException with stream: 1
+
+# Created at 2020-08-01T00:20:40.864
+Unexpected IOException with stream: 4
+
+# Created at 2020-08-01T00:20:40.865
+Unexpected IOException with stream: 4
+
+# Created at 2020-08-01T00:20:40.874
+Unexpected IOException with stream: 0
+
+# Created at 2020-08-01T00:20:40.877
+Unexpected IOException with stream: .
+
+# Created at 2020-08-01T00:20:40.880
+Unexpected IOException with stream: 8
+
+# Created at 2020-08-01T00:20:40.882
+Unexpected IOException with stream: 4
+
+# Created at 2020-08-01T00:20:40.884
+Unexpected IOException with stream: 7
+
+# Created at 2020-08-01T00:20:40.884
+Unexpected IOException with stream: ]
+
+# Created at 2020-08-01T00:20:40.885
+Unexpected IOException with stream: [
+
+# Created at 2020-08-01T00:20:40.886
+Unexpected IOException with stream: S
+
+# Created at 2020-08-01T00:20:40.886
+Unexpected IOException with stream: E
+
+# Created at 2020-08-01T00:20:40.887
+Unexpected IOException with stream: V
+
+# Created at 2020-08-01T00:20:40.888
+Unexpected IOException with stream: E
+
+# Created at 2020-08-01T00:20:40.888
+Unexpected IOException with stream: R
+
+# Created at 2020-08-01T00:20:40.889
+Unexpected IOException with stream: E
+
+# Created at 2020-08-01T00:20:40.890
+Unexpected IOException with stream: ]
+
+# Created at 2020-08-01T00:20:40.890
+Unexpected IOException with stream: :
+
+# Created at 2020-08-01T00:20:40.892
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.893
+Unexpected IOException with stream: U
+
+# Created at 2020-08-01T00:20:40.894
+Unexpected IOException with stream: n
+
+# Created at 2020-08-01T00:20:40.895
+Unexpected IOException with stream: a
+
+# Created at 2020-08-01T00:20:40.895
+Unexpected IOException with stream: b
+
+# Created at 2020-08-01T00:20:40.896
+Unexpected IOException with stream: l
+
+# Created at 2020-08-01T00:20:40.896
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.897
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.897
+Unexpected IOException with stream: t
+
+# Created at 2020-08-01T00:20:40.898
+Unexpected IOException with stream: o
+
+# Created at 2020-08-01T00:20:40.898
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.899
+Unexpected IOException with stream: r
+
+# Created at 2020-08-01T00:20:40.900
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.901
+Unexpected IOException with stream: c
+
+# Created at 2020-08-01T00:20:40.901
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.902
+Unexpected IOException with stream: i
+
+# Created at 2020-08-01T00:20:40.903
+Unexpected IOException with stream: v
+
+# Created at 2020-08-01T00:20:40.903
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.904
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.905
+Unexpected IOException with stream: m
+
+# Created at 2020-08-01T00:20:40.906
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.906
+Unexpected IOException with stream: s
+
+# Created at 2020-08-01T00:20:40.907
+Unexpected IOException with stream: s
+
+# Created at 2020-08-01T00:20:40.908
+Unexpected IOException with stream: a
+
+# Created at 2020-08-01T00:20:40.909
+Unexpected IOException with stream: g
+
+# Created at 2020-08-01T00:20:40.909
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.910
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.910
+Unexpected IOException with stream: f
+
+# Created at 2020-08-01T00:20:40.911
+Unexpected IOException with stream: r
+
+# Created at 2020-08-01T00:20:40.911
+Unexpected IOException with stream: o
+
+# Created at 2020-08-01T00:20:40.912
+Unexpected IOException with stream: m
+
+# Created at 2020-08-01T00:20:40.912
+Unexpected IOException with stream:  
+
+# Created at 2020-08-01T00:20:40.913
+Unexpected IOException with stream: r
+
+# Created at 2020-08-01T00:20:40.913
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.913
+Unexpected IOException with stream: n
+
+# Created at 2020-08-01T00:20:40.914
+Unexpected IOException with stream: d
+
+# Created at 2020-08-01T00:20:40.915
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.915
+Unexpected IOException with stream: r
+
+# Created at 2020-08-01T00:20:40.916
+Unexpected IOException with stream: e
+
+# Created at 2020-08-01T00:20:40.918
+Unexpected IOException with stream: r
+
+# Created at 2020-08-01T00:20:40.919
+Unexpected IOException with stream: 
+
+
+# Created at 2020-08-01T00:20:40.931
+Unexpected IOException with stream: 00:20:40.931 [TestNG-test=Parabank Execution of Application-1] INFO  - Driver launched successfully
+
+
+# Created at 2020-08-01T00:20:41.505
+Unexpected IOException with stream: {CustomerFirstname=AWS, Customerpassword=Test@123, Customerlastname=ASE, CustomerState=TN, Customercity=Chennai, Customeraddress=33 ERT ST, Customermobnumber=900087549, Customerssn=9091, Cusomerusername=Dummy11, TC=TC_1, CustomerZipcode=600098}
+
+# Created at 2020-08-01T00:20:41.506
+Unexpected IOException with stream: 
+
+
+# Created at 2020-08-01T00:20:41.536
+Unexpected IOException with stream:   [31mGiven [0m[31muser is on the Parabank registration page using testdata [0m[31m[1m"TC_1"[0m[31m in [0m[31m[1m"DB"[0m [90m# com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2020-08-01T00:20:41.537
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
+*** Element info: {Using=xpath, value=//a[text()='Register']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.scubatraining.Gowri.seleniummethods.ParaBankCode.Register(ParaBankCode.java:49)
+	at com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(ParabankStepDefs.java:33)
+	at ✽.user is on the Parabank registration page using testdata "TC_1" in "DB"(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:6)
+[0m
+
+
+# Created at 2020-08-01T00:20:41.539
+Unexpected IOException with stream:   [36mWhen [0m[36muser enters all the required fields[0m                                      [90m# com.internetapp.ParabankstepDefs.ParabankStepDefs.user_enters_all_the_required_fields()[0m
+
+
+# Created at 2020-08-01T00:20:41.540
+Unexpected IOException with stream:   [36mThen [0m[36mCustomer is logged in with New Account created[0m                           [90m# com.internetapp.ParabankstepDefs.ParabankStepDefs.customer_is_logged_in_with_New_Account_created()[0m
+
+
+# Created at 2020-08-01T00:20:41.546
+Unexpected IOException with stream: 00:20:41.545 [TestNG-test=Parabank Execution of Application-1] ERROR - unable to capture screenshotorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
+
+
+# Created at 2020-08-01T00:20:41.547
+Unexpected IOException with stream:       [31mjava.lang.NullPointerException
+	at com.maveric.core.utils.web.WebActions.logScreenshot(WebActions.java:23)
+	at com.maveric.core.cucumber.CucumberListener.takeFailureScreenshot(CucumberListener.java:38)
+	at com.maveric.core.cucumber.CucumberListener.after(CucumberListener.java:31)
+[0m
+
+
+# Created at 2020-08-01T00:20:41.585
+Unexpected IOException with stream: 00:20:41.584 [TestNG-test=Parabank Execution of Application-1] INFO  - Driver Quit Completed
+
+
+# Created at 2020-08-01T00:20:41.592
+Unexpected IOException: 8,1,com.CucumberRunner,Registration Flow(com.CucumberRunner),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=84.0.4147.105)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Administrators-MacBook-Pro.local'\002C ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.5'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 84.0.4147.105\002C chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0...\002C userDataDir: /var/folders/cv/yklw18hd1kd...}\002C goog:chromeOptions: {debuggerAddress: localhost:59596}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8eb03bf81b499ac211bd00d14b27d9e1\000A*** Element info: {Using=xpath\002C value=//a[text()='Register']},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=84.0.4147.105)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Administrators-MacBook-Pro.local'\002C ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.5'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 84.0.4147.105\002C chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0...\002C userDataDir: /var/folders/cv/yklw18hd1kd...}\002C goog:chromeOptions: {debuggerAddress: localhost:59596}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8eb03bf81b499ac211bd00d14b27d9e1\000A*** Element info: {Using=xpath\002C value=//a[text()='Register']},CucumberRunner.scenario \00BB NoSuchWindow no such window: target window already c...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=84.0.4147.105)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'Administrators-MacBook-Pro.local'\002C ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.15.5'\002C java.version: '1.8.0_241'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 84.0.4147.105\002C chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0...\002C userDataDir: /var/folders/cv/yklw18hd1kd...}\002C goog:chromeOptions: {debuggerAddress: localhost:59596}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: MAC\002C platformName: MAC\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: 8eb03bf81b499ac211bd00d14b27d9e1\000A*** Element info: {Using=xpath\002C value=//a[text()='Register']}\000A
+
+
+# Created at 2020-08-01T00:20:41.593
+Unexpected IOException with stream: 00:20:41.592 [TestNG-test=Parabank Execution of Application-1] ERROR - FAIL  Registration Flow
+
+
+# Created at 2020-08-01T00:20:52.498
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

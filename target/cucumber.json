@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-07-31T14:35:56.851Z",
+        "start_timestamp": "2020-07-31T18:50:29.339Z",
         "before": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "match": {
@@ -22,8 +22,9 @@
         "after": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\n\tat com.maveric.core.utils.web.WebActions.logScreenshot(WebActions.java:23)\n\tat com.maveric.core.cucumber.CucumberListener.takeFailureScreenshot(CucumberListener.java:38)\n\tat com.maveric.core.cucumber.CucumberListener.after(CucumberListener.java:31)\n",
+              "duration": 7000000,
+              "status": "failed"
             },
             "match": {
               "location": "com.maveric.core.cucumber.CucumberListener.after(io.cucumber.java.Scenario)"
@@ -35,8 +36,9 @@
         "steps": [
           {
             "result": {
-              "duration": 6367000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d84.0.4147.105)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Administrators-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:18b4:d186:fc95:d6ab%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8eb03bf81b499ac211bd00d14b27d9e1\n*** Element info: {Using\u003dxpath, value\u003d//a[text()\u003d\u0027Register\u0027]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.scubatraining.Gowri.seleniummethods.ParaBankCode.Register(ParaBankCode.java:49)\n\tat com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(ParabankStepDefs.java:33)\n\tat ✽.user is on the Parabank registration page using testdata \"TC_1\" in \"DB\"(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:6)\n",
+              "duration": 12052000000,
+              "status": "failed"
             },
             "line": 6,
             "name": "user is on the Parabank registration page using testdata \"TC_1\" in \"DB\"",
@@ -57,8 +59,7 @@
           },
           {
             "result": {
-              "duration": 997000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user enters all the required fields",
@@ -69,8 +70,7 @@
           },
           {
             "result": {
-              "duration": 548000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "Customer is logged in with New Account created",
