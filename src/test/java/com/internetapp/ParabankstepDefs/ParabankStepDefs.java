@@ -1,6 +1,5 @@
 package com.internetapp.ParabankstepDefs;
-
-import com.scubatraining.Gowri.seleniummethods.ParaBankCode;
+import com.internetapp.pages.ParaBankCode;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

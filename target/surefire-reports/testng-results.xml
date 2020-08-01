@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parabank TestSuite" duration-ms="16042" started-at="2020-07-31T18:50:25Z" finished-at="2020-07-31T18:50:41Z">
+  <suite name="Parabank TestSuite" duration-ms="17095" started-at="2020-08-01T03:04:11Z" finished-at="2020-08-01T03:04:28Z">
     <groups>
     </groups>
-    <test name="Parabank Execution of Application" duration-ms="16042" started-at="2020-07-31T18:50:25Z" finished-at="2020-07-31T18:50:41Z">
+    <test name="Parabank Execution of Application" duration-ms="17095" started-at="2020-08-01T03:04:11Z" finished-at="2020-08-01T03:04:28Z">
       <class name="com.CucumberRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@7d8704ef]" name="setUpClass" is-config="true" duration-ms="363" started-at="2020-08-01T00:20:25Z" finished-at="2020-08-01T00:20:25Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.CucumberRunner@7d8704ef]" name="setUpClass" is-config="true" duration-ms="270" started-at="2020-08-01T08:34:11Z" finished-at="2020-08-01T08:34:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="setTestName" is-config="true" duration-ms="3" started-at="2020-08-01T00:20:26Z" finished-at="2020-08-01T00:20:26Z">
+        <test-method status="PASS" signature="setTestName(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="setTestName" is-config="true" duration-ms="3" started-at="2020-08-01T08:34:12Z" finished-at="2020-08-01T08:34:12Z">
           <params>
             <param index="0">
               <value>
@@ -20,14 +20,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4163f1cd]]>
+                <![CDATA[[Ljava.lang.Object;@88a8218]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestName -->
-        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="scenario" duration-ms="15545" started-at="2020-08-01T00:20:26Z" data-provider="scenarios" finished-at="2020-08-01T00:20:41Z">
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="scenario" duration-ms="16475" started-at="2020-08-01T08:34:12Z" data-provider="scenarios" finished-at="2020-08-01T08:34:28Z">
           <params>
             <param index="0">
               <value>
@@ -40,63 +40,21 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=84.0.4147.105)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
-*** Element info: {Using=xpath, value=//a[text()='Register']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=84.0.4147.105)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Administrators-MacBook-Pro.local', ip: 'fe80:0:0:0:18b4:d186:fc95:d6ab%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/cv/yklw18hd1kd...}, goog:chromeOptions: {debuggerAddress: localhost:59596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8eb03bf81b499ac211bd00d14b27d9e1
-*** Element info: {Using=xpath, value=//a[text()='Register']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.scubatraining.Gowri.seleniummethods.ParaBankCode.Register(ParaBankCode.java:49)
-	at com.internetapp.ParabankstepDefs.ParabankStepDefs.user_is_on_the_Parabank_registration_page_using_testdata_in(ParabankStepDefs.java:33)
-	at ✽.user is on the Parabank registration page using testdata "TC_1" in "DB"(file:///Users/gowriv/Desktop/Scuba/Test%20NG%20Framework/NewTAFUpdated/./src/test/resources/features/Register.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-01T00:20:41Z" finished-at="2020-08-01T00:20:41Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.CucumberRunner@7d8704ef]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-01T08:34:28Z" finished-at="2020-08-01T08:34:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Registration Flow status=FAILURE method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@7d8704ef] output={null}]]]>
+                <![CDATA[[TestResult name=Registration Flow status=SUCCESS method=CucumberBaseTest.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.CucumberRunner@7d8704ef] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@7d8704ef]" name="tearDownClass" is-config="true" duration-ms="74" started-at="2020-08-01T00:20:41Z" finished-at="2020-08-01T00:20:41Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.CucumberRunner@7d8704ef]" name="tearDownClass" is-config="true" duration-ms="96" started-at="2020-08-01T08:34:28Z" finished-at="2020-08-01T08:34:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
