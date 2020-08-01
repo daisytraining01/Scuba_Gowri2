@@ -18,8 +18,7 @@ import org.testng.Assert;
 
 import com.maveric.core.testng.listeners.ReportListener;
 import com.maveric.core.utils.web.WebActions;
-import com.scubatraining.Gowri.seleniummethods.CommonRepo;
-import com.scubatraining.Gowri.seleniummethods.DBConnection;
+
 
 public class ParaBankCode extends WebActions {
 	DBConnection DBC = new DBConnection();
