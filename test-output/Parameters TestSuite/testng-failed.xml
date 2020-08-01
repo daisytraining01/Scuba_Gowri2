@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TestSuite]">
-  <parameter name="number3" value="10"/>
-  <parameter name="number4" value="89"/>
-  <parameter name="number1" value="5"/>
-  <parameter name="number2" value="2"/>
-  <test name="Test 2(failed)">
-    <parameter name="number3" value="10"/>
-    <parameter name="number4" value="89"/>
+  <test name="Parabank TestNG Execution(failed)">
     <classes>
-      <class name="com.scubatraining.Gowri.Calculator.TestNG_ParallelClass1">
+      <class name="com.internetapp.tests.Parabank">
         <methods>
-          <include name="testMethod1"/>
+          <include name="SearchTrxn"/>
+          <include name="Transferfund"/>
+          <include name="ExtendSetup"/>
+          <include name="OpenAccount"/>
+          <include name="Loginaccount"/>
+          <include name="tearDown"/>
+          <include name="loadproperties"/>
         </methods>
-      </class> <!-- com.scubatraining.Gowri.Calculator.TestNG_ParallelClass1 -->
+      </class> <!-- com.internetapp.tests.Parabank -->
     </classes>
-  </test> <!-- Test 2(failed) -->
+  </test> <!-- Parabank TestNG Execution(failed) -->
 </suite> <!-- Failed suite [Parameters TestSuite] -->
