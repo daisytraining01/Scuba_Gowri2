@@ -59,7 +59,7 @@ public class Parabank {
 	public void loadproperties() throws Throwable {
 		FileReader reader = new FileReader(System.getProperty("user.dir") + "/Locator_Properties/Parabank.properties");
 		prop.load(reader);
-		Testdata = rep.ReadExcel("/Users/gowriv/Desktop/DataFile.xlsx", "Data", "TC='TC_5'");
+		Testdata = rep.ReadExcel("/Users/gowriv/Desktop/DataFile.xlsx", "Data", "TC='TC_6'");
 		driver = rep.getdriver("Chrome");
 		driver.manage().window().maximize();
 		driver.get("https://parabank.parasoft.com/parabank/register.htm");
@@ -97,7 +97,7 @@ public class Parabank {
 	public void Loginaccount() throws Exception {
 		//driver.get("https://parabank.parasoft.com/parabank/register.htm");
 		test = extent.createTest("Login");
-		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Login_username"))),"Dummy5");
+		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Login_username"))),"Dummy6");
 		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Login_Password"))),"Test@123");
 		rep.takescreenshot("/Users/gowriv/Desktop/Automation","Before Login");
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Login_Button"))));
