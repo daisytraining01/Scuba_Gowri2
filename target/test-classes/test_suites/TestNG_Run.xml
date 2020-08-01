@@ -2,7 +2,7 @@
 <suite name="Parameters TestSuite" >
 <test name="Parabank TestNG Execution">
 	<classes>
-		<class name="com.scubatraining.Gowri.seleniummethods.Parabank"></class>
+		<class name="com.internetapp.tests.Parabank"></class>
 	</classes>
 </test>
 </suite> 
