@@ -90,7 +90,7 @@ public class Parabank {
 		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Repeat_password"))), Testdata.get("Repeatpassword"));
 		rep.takescreenshot("/Users/gowriv/Desktop/Automation","Before Register");
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Click_Register"))));
-		rep.takescreenshot("/Users/gowriv/Desktop/Automation","Post Registration");
+		Scrpath=rep.takescreenshot("/Users/gowriv/Desktop/Automation","Post Registration");
 		//Assert.assertTrue(true);
 	}
 	@Test(priority=1)
