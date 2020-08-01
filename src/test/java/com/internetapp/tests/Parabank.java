@@ -65,7 +65,7 @@ public class Parabank {
 		driver.get("https://parabank.parasoft.com/parabank/register.htm");
 	}
 
-	@Test(priority=1)
+	@Test(priority=0)
 	public void Register() throws Exception {
 		//driver.get("https://parabank.parasoft.com/parabank/register.htm");
 		test = extent.createTest("Register");
@@ -93,7 +93,7 @@ public class Parabank {
 		rep.takescreenshot("/Users/gowriv/Desktop/Automation","Post Registration");
 		//Assert.assertTrue(true);
 	}
-	@Test(priority=2)
+	@Test(priority=1)
 	public void Loginaccount() throws Exception {
 		//driver.get("https://parabank.parasoft.com/parabank/register.htm");
 		test = extent.createTest("Login");
@@ -105,7 +105,7 @@ public class Parabank {
 		Assert.assertEquals(rep.gettext(driver.findElement(By.xpath("//h1[text()='Accounts Overview']"))), "Accounts Overview");
 		Scrpath=rep.takescreenshot("/Users/gowriv/Desktop/Automation", "Report");
 	}
-	@Test(dependsOnMethods = { "Loginaccount" })
+	@Test(dependsOnMethods = { "Loginaccount" },priority=2)
 	public void  OpenAccount() throws Exception {
 		test = extent.createTest("Open Account");
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Open_New_account"))));
@@ -120,7 +120,7 @@ public class Parabank {
 		Thread.sleep(2000);
 		Scrpath=rep.takescreenshot("/Users/gowriv/Desktop/Automation", "Report");
 	}
-	@Test(dependsOnMethods = { "OpenAccount" })
+	@Test(dependsOnMethods = { "OpenAccount" },priority=3)
 	public void Transferfund() throws Exception {
 		test = extent.createTest("Transfer Fund");
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Account_Overview"))));
@@ -136,7 +136,7 @@ public class Parabank {
 		Assert.assertEquals(rep.gettext(driver.findElement(By.xpath("//h1[text()='Transfer Complete!']"))), "Transfer Complete!");
 		Scrpath=rep.takescreenshot("/Users/gowriv/Desktop/Automation", "Report");
 	}
-	@Test(dependsOnMethods = { "Transferfund" })
+	@Test(dependsOnMethods = { "Transferfund" },priority=4)
 	public void SearchTrxn() throws Throwable {
 		test = extent.createTest("Search Transactions");
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Find_Trxns"))));
