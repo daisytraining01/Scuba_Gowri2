@@ -81,7 +81,7 @@ public class ParaBankCode extends WebActions {
 		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Login_username"))), Username);
 		rep.textbox(driver.findElement(By.xpath(prop.getProperty("Login_Password"))), Password);
 		rep.links(driver.findElement(By.xpath(prop.getProperty("Login_Button"))));
-
+		Thread.sleep(1000);
 		Assert.assertEquals(rep.gettext(driver.findElement(By.xpath("//h1[text()='Accounts Overview']"))),
 				"Accounts Overview");
 		ReportListener.logger.info("Logged in successfully");
