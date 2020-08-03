@@ -8,7 +8,7 @@ When user enters all the required fields
 Then Customer is logged in with New Account created
 Examples:
 |TC|Type|
-|TC_2|DB|
+|TC_3|DB|
 
 
 @transaction
@@ -20,7 +20,7 @@ And Transfer amount "10"
 And Verify Transaction details and sort it and Record the transaction in "/Users/gowriv/Desktop/Automation/Test.txt"
 Examples:
 |Username|Password|
-|Dummy12|Test@123|
+|Dummy13|Test@123|
 
 #@DBtransaction
 #Scenario: Insert Update Delete Query for prepared Statement
