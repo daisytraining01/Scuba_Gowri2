@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TestSuite]">
-  <test name="Parabank TestNG Execution(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="methods">
+  <test name="Default test(failed)" parallel="methods">
     <classes>
-      <class name="com.internetapp.tests.Parabank">
+      <class name="com.CucumberRunner">
         <methods>
-          <include name="SearchTrxn"/>
-          <include name="Transferfund"/>
-          <include name="ExtendSetup"/>
-          <include name="OpenAccount"/>
-          <include name="Loginaccount"/>
-          <include name="tearDown"/>
-          <include name="loadproperties"/>
+          <include name="setUpClass"/>
+          <include name="setTestName"/>
+          <include name="tearDownClass"/>
+          <include name="afterMethod"/>
+          <include name="scenario" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.internetapp.tests.Parabank -->
+      </class> <!-- com.CucumberRunner -->
     </classes>
-  </test> <!-- Parabank TestNG Execution(failed) -->
-</suite> <!-- Failed suite [Parameters TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

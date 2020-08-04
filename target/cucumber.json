@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-08-01T07:54:40.793Z",
+        "start_timestamp": "2020-08-04T10:42:50.432Z",
         "before": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -35,18 +35,18 @@
         "steps": [
           {
             "output": [
-              "01-Aug-2020 01:24:48 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eRegister Page  \u003c/a\u003e"
+              "04-Aug-2020 04:12:56 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_1.png\u003eRegister Page  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 8105000000,
+              "duration": 6308000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "user is on the Parabank registration page using testdata \"TC_1\" in \"DB\"",
+            "name": "user is on the Parabank registration page using testdata \"TC_3\" in \"DB\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"TC_1\"",
+                  "val": "\"TC_3\"",
                   "offset": 57
                 },
                 {
@@ -60,10 +60,10 @@
           },
           {
             "output": [
-              "01-Aug-2020 01:24:50 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eDetails Entered  \u003c/a\u003e"
+              "04-Aug-2020 04:12:59 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_2.png\u003eDetails Entered  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 1687000000,
+              "duration": 3024000000,
               "status": "passed"
             },
             "line": 7,
@@ -75,10 +75,10 @@
           },
           {
             "output": [
-              "01-Aug-2020 01:24:52 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eRegistered success  \u003c/a\u003e"
+              "04-Aug-2020 04:13:02 PM : \u003ca target\u003d_blank href\u003dscreenshots/screenshot_3.png\u003eRegistered success  \u003c/a\u003e"
             ],
             "result": {
-              "duration": 1806000000,
+              "duration": 2330000000,
               "status": "passed"
             },
             "line": 8,

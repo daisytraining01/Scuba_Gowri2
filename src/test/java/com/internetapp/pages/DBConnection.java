@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class DBConnection {
-	final String URL = "jdbc:mysql://localhost:3306/parabankdb?useSSL=false";
+	final String URL = "jdbc:mysql://localhost:3306/parabankdb?allowPublicKeyRetrieval=true&useSSL=false";
 	final String user = "root";
 	final String password = "Gowri@1423";
 
